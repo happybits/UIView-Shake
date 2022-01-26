@@ -13,7 +13,8 @@ let package = Package(
     targets: [
         .target(
             name: "UIViewShake",
-            path: "Source"
+            path: "Source",
+            publicHeadersPath: "Source"
         )
     ]
 )
